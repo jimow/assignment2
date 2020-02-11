@@ -39,6 +39,8 @@ you need.</p>
 			<h6>DESIGN</h6>
 			<p>Our design practice offers a full range of services including branding strategy,<br />
 				interaction and visual design and user experience testing.<br />Throughout your project, our designers create and implement visual designs and workflows,<br />solicit user feedback and work with you to make sure what gets built is what is needed</p>
+				<p class="hideme"><b>I am a paragraph, if you click me I will hide. Try it!!.</b></p>
+				<p class="showme"><b>Click To show The paragraph</b></p>
 		</div>
 		<div class="row">
 		<div class="whatwedo">
@@ -106,5 +108,20 @@ outline:none
 		<b>2015</b></p>
 	</div>
 </div>
+<script src="js/jquery.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('.showme').hide();
+    $('.hideme').click(function(){
+    	$('.hideme').hide();
+    	$('.showme').show();
+    });
+    $('.showme').click(function(){
+        $('.showme').hide();
+        $('.hideme').show();
+    });
+});
+</script>
 </body>
 </html>
