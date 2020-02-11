@@ -1,18 +1,17 @@
-#Assignment 1Added README File
-<section class="footer1"><h4>CONTACT US</h4>
-       <div class="row">
-		<div class="footer">&nbsp;</div>
-		<div class="footer"><input type="text" name="name" placeholder="Name"></div>
-		<div class="footer"><input type="text" name="name" placeholder="Email"></div>
-		<div class="footer">&nbsp;</div>
-	</div>
-
-	<center><textarea cols="30" rows="6" style="text-align:center;width:50%;opacity:0.6;outline: 1px solid #FFFFFF;"></textarea></center>
+#Assignment 2
 
 
-		
-		
-		  
+The assignment is testing on all the frontend technologies. 
+It seems to be easy from the look but has a lot of underlying test that is hard to understand.
 
-    </section>
+I believe i did my **Level** best and *hope* to pass.
+As indicated in the README file the following is what the assignment is testing.
+1. HTML
+2. CSS
+3. JS
+4. JQUERY
+5. Markdown
+
+
+
 FINAL SUBMISSION
